@@ -251,7 +251,7 @@ turn_external_host = "__DOMAIN__"
 turn_external_port = 3478
 
 -- HTTP server (BOSH)
-http_ports = { 5290 }
+http_ports = 5290
 http_interfaces = { "127.0.0.1", "::1" }
 http_max_content_size = 50 * 1024 * 1024 -- bytes
 
